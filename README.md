@@ -1,1 +1,2 @@
-# Taste-of-Teranga
+Taste of Teranga - Web Application
+"Taste of Teranga" is a web-based project that showcases the vibrant flavors and hospitality of Senegalese fusion cuisine. The website provides an immersive experience for users to explore the restaurant's menu, make reservations, and learn more about the cultural richness of Senegal. Built with HTML, CSS, JavaScript, and Bootstrap, this responsive site is designed to work seamlessly across all devices, offering an engaging user interface. With beautiful imagery and clear navigation, "Taste of Teranga" invites users to experience the warmth and flavor of Senegal from the comfort of their homes.
