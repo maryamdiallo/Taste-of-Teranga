@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste of Teranga</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <h1><span style="color: green;">Taste</span>
+            <span style="color: yellow;">Of</span>
+            <span style="color: red;">Teranga</span></h1>
+        <nav>
+            <ul>
+                <li class="reservation"><a href='reservation.html' style="color: red;">Contact</a></li>
+                <li class="menu"><a href='menu.html' style="color: green;">About</a></li>
+                <li class="index"><a href='index.html' style="color: yellow;">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- contact -->
+    <div class="container">
+        <section id="contactus">
+                 <form action="submit_form.html" method="POST">
+                 <h2>Reserve a Table</h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+                <br>
+                <label for="Phone">Phone Number:</label>
+                <input type="tel" id="Phone" name="Phone" required>
+                <br>
+                <label for="guests">Number of Guest</label>
+                <input type="number"  id="guests" name="guests" required>
+                <br>
+                <label for="date">Reservation Date</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Reservation Time</label>
+                <input type="time" id="time" name="time" required>
+                <br>
+                <button type="submit">Sumbit Reservation</button>
+                <br>
+                <p>We look forward to serving you! If you have any question feel free to reach out.</p>
+                    <p>Email:<a href="mailto:tt@gmail.com" style="color: red;">tt@gmail.com</a></p>
+                    <p>Phone: 555 555 5555</p>
+                    <p>Location: 123 Harlem, New York</p>
+                 </form>
+        </section>
+        </div>
+    </body> 
+</html>
